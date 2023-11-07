@@ -14,4 +14,12 @@
 
     Returns the index of the first occurence
 
-## A tuple is a collection which is ordered and **unchangeable**
+### A tuple is a collection which is ordered and **unchangeable**
+
+## Tuples   ()
+
+    Ordered
+
+    Unchangeable 
+    
+    Allow duplicates.
