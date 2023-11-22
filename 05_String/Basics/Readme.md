@@ -1,4 +1,4 @@
-### '\' is used for escaping special characters in a string
+##### '\' is used for escaping special characters in a string
 
     \'      '
 

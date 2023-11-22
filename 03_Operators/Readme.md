@@ -1,6 +1,6 @@
 ## Operators
 
-###  Arithmetic Operators
+#####  Arithmetic Operators
 
 	+   Addition
 		a = 2 + 2   => 4
@@ -26,7 +26,7 @@
 	round   Rounding to Nearest
 		a = round(5 / 2)  => 3
 
-###  Assignment Operators    
+#####  Assignment Operators    
 
 	+=    x += 3    x = x + 3
 
@@ -42,7 +42,7 @@
 
 	**=    x **= 3    x = x ** 3
 
-### Comparison Operators
+##### Comparison Operators
 
 	==    Equal				x == y    
 
@@ -56,7 +56,7 @@
 
 	<=   Less than or equal to    	x <= y
 
-### Logical Operators
+##### Logical Operators
 
 	and 	Returns True if both statements are true					x < 5 and  x < 10	
 

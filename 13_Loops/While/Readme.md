@@ -1,16 +1,16 @@
-### while loop we can execute a set of statements as long as a condition is true
+##### while loop we can execute a set of statements as long as a condition is true
 
-### The while loop requires relevant variables to be ready ( initialized before loop starts )
+##### The while loop requires relevant variables to be ready ( initialized before loop starts )
 
-### break 
+##### break 
     
     To stop the loop even if the while condition is true
 
-### continue
+##### continue
 
     To stop the current iteration, and continue with the next
 
-### else
+##### else
 
     To run a block of code once when the condition no longer is true.
 

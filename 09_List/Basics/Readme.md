@@ -1,14 +1,14 @@
-### Lists are used to store multiple items in a single variable
+##### Lists are used to store multiple items in a single variable
 
-### Lists are created using square brackets
+##### Lists are created using square brackets
 
-### list constructor
+##### list constructor
 
     list(("apple", "banana", "cherry"))
 
     Note the double round-brackets
 
-### Membership Operators ( in, not in )
+##### Membership Operators ( in, not in )
 
     To test if a specified value is presented in an object
 
@@ -20,7 +20,7 @@
         b. Returns True if the specified value is not present in the object	
             Ex: x not in y
 
-### index(value)
+##### index(value)
 
     1. Returns index of the value if present in the list
 

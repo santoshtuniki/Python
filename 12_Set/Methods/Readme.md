@@ -1,55 +1,55 @@
-### Once a set is created, you cannot change its items, but you can add new items
+##### Once a set is created, you cannot change its items, but you can add new items
 
-### add()
+##### add()
 
     Add element to the set
 
-### remove(item)
+##### remove(item)
 
     1.  To remove an item in a set
 
     2.  If the item to remove does not exist, will raise an error.
 
-### discard(item)
+##### discard(item)
 
     1.  To remove an item in a set
 
     2.  If the item to remove does not exist, will NOT raise an error.
 
-### pop()
+##### pop()
 
     Removes a RANDOM item from the set
 
-### clear() 
+##### clear() 
     
     Empties the set
 
-### del
+##### del
 
     Deletes the set completely
 
-###  update(set2)
+#####  update(set2)
 
     To add items from another set(set2) into the current set(set1)
 
     we can also use update with list, tuple or dictionary to add to set1
 
-### union()
+##### union()
 
     Returns a new set containing all the elments from set1 and set2
 
-### intersection()
+##### intersection()
 
     Returns a new set containing all the common elments from set1 and set2
 
-### symmetric_difference()
+##### symmetric_difference()
 
     Returns a new set containing all the elments except the common elements from set1 and set2
 
-### intersection_update()
+##### intersection_update()
 
     Update a set(set1) with the intersection of itself and another(set2)
 
-### symmetric_difference_update()
+##### symmetric_difference_update()
 
     Update a set(set1) with the elements distinct(not common) to itself and another(set2)

@@ -1,14 +1,14 @@
-### We can take input from user using 'input()' keyword
+##### We can take input from user using 'input()' keyword
 
     value = input('Please enter a value: \n')
 
     print(value)
 
-### All user inputs we get are "string"
+##### All user inputs we get are "string"
 
-### sys.exit() to exit the code
+##### sys.exit() to exit the code
 
-### Random
+##### Random
 
     import random
 

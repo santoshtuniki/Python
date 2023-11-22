@@ -1,23 +1,23 @@
-### len()
+##### len()
 
     Length of the string
 
 
 ## MODIFY STRINGS
 
-### lower()
+##### lower()
 
     Converts string to lowercase
 
-### upper()
+##### upper()
 
     Converts string to uppercase
 
-### capitalize()
+##### capitalize()
 
     Converts the first character to upper case
 
-### replace(previous, latest, count<Optional>)
+##### replace(previous, latest, count<Optional>)
 
     Return a copy with all occurrences of substring old replaced by new
 
@@ -27,7 +27,7 @@
         
         3. By  default, count = -1 => Replace all
 
-### title()
+##### title()
 
     Returns a string where the first character in every word is upper case.
 
@@ -35,7 +35,7 @@
 
         2. Note that the first letter after a non-alphabet letter is converted into a upper case letter:
 
-### split([char])
+##### split([char])
 
     Returns a list where the text between the specified separator becomes the list items
 
@@ -43,7 +43,7 @@
         
            print(a.split(","))      #   returns ['Hello', ' World!']
 
-### strip([chars])
+##### strip([chars])
 
     Return a copy of the string with the leading and trailing characters(if None, whitespaces) removed
 
@@ -51,57 +51,57 @@
 
         2. multiline.strip('cmowz.')     => Remove 'c', 'm', 'o', 'w', 'z', '.' characters from beginning and end
 
-### lstrip([chars])
+##### lstrip([chars])
 
     Return a copy of the string with leading characters removed.
 
-### rstrip([chars])
+##### rstrip([chars])
 
     Return a copy of the string with trailing characters removed.
 
 
-### center(width, [fillchar])
+##### center(width, [fillchar])
 
     Return centered in a string of length width
 
         1. Padding is done using the specified fillchar, (if None, with whitespaces)
 
-### ljust(width, [fillchar])
+##### ljust(width, [fillchar])
 
-### rjust(width, [fillchar])
+##### rjust(width, [fillchar])
 
 
 ## INDEXING
 
-### str[index]
+##### str[index]
 
     Returns character present at index
 
-### str[-1]
+##### str[-1]
 
     Returns character at end of the string
 
 
 ## SLICING
 
-### str[a:b]
+##### str[a:b]
 
     Returns a str with characters including from index[a] to index[b] excluding index[b]
 
-### str[a:]
+##### str[a:]
 
     Returns a str with characters including from index[a] to end
 
-### str[:b]
+##### str[:b]
 
     Returns a str with characters including from start to index[b]
 
 
 
-### startswith(prefix)
+##### startswith(prefix)
 
     Return True if string starts with the prefix, otherwise return False
 
-### endswith(suffix)
+##### endswith(suffix)
 
     Return True if string ends with the suffix, otherwise return False

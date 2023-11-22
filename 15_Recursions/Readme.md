@@ -1,7 +1,7 @@
-### Python also accepts function recursion
+##### Python also accepts function recursion
 
-### Recursion is a common mathematical and programming concept. 
+##### Recursion is a common mathematical and programming concept. 
 
-### It means that a function calls itself. 
+##### It means that a function calls itself. 
 
-### This has the benefit of meaning that you can loop through data to reach a result
+##### This has the benefit of meaning that you can loop through data to reach a result

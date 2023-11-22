@@ -1,5 +1,5 @@
-### Dictionaries are used to store data values in key:value pairs.
+##### Dictionaries are used to store data values in key:value pairs.
 
-### len()
+##### len()
 
     To determine how many items a dictionary has

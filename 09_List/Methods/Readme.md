@@ -1,34 +1,34 @@
-### len()
+##### len()
 
     Returns the length of the list
 
-### Slicing is spplicable and is same as String slicing
+##### Slicing is spplicable and is same as String slicing
 
     list[A:B] => Returns a new list containing elements including index A but excluding index B
 
 
 # MUTATE the list
 
-### append(el)
+##### append(el)
 
     To add an item to the end of the list
 
-### insert(A, el)
+##### insert(A, el)
 
     To insert a list item(el) at a specified index(A)
 
-### extend(listB)
+##### extend(listB)
 
     To append elements from another list(listB) to the current list
 
 
-### To change the value of a specific item
+##### To change the value of a specific item
 
     Use index number
 
         Ex: fruits[2] = 'Berry'
 
-### To change the value of items within a specific range
+##### To change the value of items within a specific range
 
     1.  Define a list with the new values
     
@@ -49,19 +49,19 @@
             Ex: fruits[1:3] = ["watermelon"]
 
 
-### remove(el)
+##### remove(el)
 
     1.  Removes the specific value from the list
 
     2.  If the item has duplicates, it removes the first occurance
 
-### pop(indexA)
+##### pop(indexA)
 
     1.  Removes and returns the value at the specified index(indexA)
 
     2.  If you do not specify the index, it removes the last item.
 
-### del
+##### del
 
     1.  Removes the value at specific index(indexA)
 
@@ -71,12 +71,12 @@
 
         Ex: del list
 
-### clear()
+##### clear()
 
     Empties the list and returns the list that is empty.
 
 
-### sort()
+##### sort()
 
     1.  Sort the list in ascending order and return None
 
@@ -106,7 +106,7 @@
 
 ## NO MUTATION
 
-### Get sorted array without mutating original array
+##### Get sorted array without mutating original array
 
     Returns a new list containing elemnts in ascending order
 
@@ -115,7 +115,7 @@
     2.  sorted(fruits, reverse=True)
 
 
-### Copy the list
+##### Copy the list
 
     1.  myList.copy()
 
