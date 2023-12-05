@@ -25,14 +25,14 @@ def rps(name='player1'):
         )
 
         if playerChoice not in ["1", "2", "3"]:
-            print('{name}, please enter 1, 2, or 3 only.')
+            print(f'\n{name}, please enter 1, 2, or 3 only.')
             return play_rps()
-
-        player = int(playerChoice)
 
         computerChoice = random.choice("123")
 
         computer = int(computerChoice)
+
+        player = int(playerChoice)
 
         print(f"\n{name}, you chose {str(RPS(player)).replace('RPS.', '')}.")
 
@@ -45,18 +45,18 @@ def rps(name='player1'):
 
             if player == 1 and computer == 3:
                 player_wins += 1
-                return f'{name}, you win!'
+                return f'🎉 {name}, you win!'
             elif player == 2 and computer == 1:
                 player_wins += 1
-                return f'{name}, you win!'
+                return f'🎉 {name}, you win!'
             elif player == 3 and computer == 2:
                 player_wins += 1
-                return f'{name}, you win!'
+                return f'🎉 {name}, you win!'
             elif player == computer:
-                return 'Tie Game!'
+                return '😲 Tie Game!'
             else:
                 python_wins += 1
-                return f'Python wins!\nSorry, {name}...'
+                return f'🐍 Python wins!\nSorry, {name}... 😢'
 
         game_result = decide_winner(player, computer)
         print(game_result)
@@ -80,8 +80,9 @@ def rps(name='player1'):
         if playAgain.lower() == "y":
             return play_rps()
         else:
-            print("\nThank you for playing!\n")
-            sys.exit(f"Bye {name}!")
+            print("\n🎉🎉🎉🎉")
+            print("Thank you for playing!\n")
+            sys.exit(f"Bye {name}! 👋")
 
     return play_rps
 
