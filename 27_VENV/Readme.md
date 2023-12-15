@@ -43,4 +43,25 @@
         pip        22.0.2
         setuptools 59.6.0
 
-##### 
+##### To know the information of a package:
+
+    pip show <package_name>
+
+##### To let others know the packages we used in virtual environment, we have *requirements.txt* file.
+
+    pip freeze > requirements.txt
+
+##### Install "python-dotenv" globally outside venv to resolve error:
+
+    Import "dotenv" could not be resolved Pylance
+
+##### WEATHER:
+
+    https://openweathermap.org/ > name > My API Keys
+
+    https://openweathermap.org/api > Current Weather Data > API doc
+
+
+##### python-dotenv to access data in .env file
+
+##### use os.getenv(KEY) to write data of .env file
